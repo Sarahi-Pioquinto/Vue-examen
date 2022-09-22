@@ -3,15 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
     <div class="container">
       <div id="app">
-        
+        <imagen-dinmica>
+          <div class="imagen">
+            <img :src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/my-hero-academia-quirks-1557833813.jpg?crop=0.564xw:1.00xh;0.219xw,0&resize=640:*" alt="vuejs">
+          </div>
+          <p>Esto es el contenido de la imagen dinamica</p>
+          
+        </imagen-dinamica>
       </div>
     </div>
     <script type="module" src="/src/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./src/components/Slot.js" ></script>
+
   </body>
 </html>

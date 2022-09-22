@@ -6,9 +6,9 @@
     
     <div>
         <img :src="url" alt="nombre">
-            
-        <h2>{{nombre}}</h2>
-        <p>{{nombre1}}</p>             
+        
+        <h4>{{nombre}}</h4>
+        <p>{{nombre1}}</p>            
         <a v-bind:href="url" target="_blank">Precio $500</a> 
     </div>
     
@@ -16,10 +16,9 @@
 
 <style scoped>
     div{
-       width: 500px;
-       height: 350px;
-        display: inline;  
-        text-align: center;
+        width: 500px;
+        height: auto; 
+                    
         border: 1px solid ;
         padding: 1%;
         border-radius: 5px;
